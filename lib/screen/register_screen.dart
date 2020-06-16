@@ -96,6 +96,7 @@ Widget telpField(Bloc bloc){
       builder: (context, snapshot){
         return TextField(
           obscureText: true,
+          keyboardType: TextInputType.phone,
           onChanged: bloc.changeTelp,
           decoration: InputDecoration(
             errorText: snapshot.error,

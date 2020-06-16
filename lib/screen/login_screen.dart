@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_rx/blocs/bloc.dart';
 import 'package:login_rx/blocs/provider.dart';
-import 'package:login_rx/register_screen.dart';
+import 'package:login_rx/screen/register_screen.dart';
 
 
 class LoginScreen extends StatelessWidget {
